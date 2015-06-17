@@ -50,9 +50,9 @@ bootstrap() {
 }
 
 install_all() {
-  $DIR/grid install zookeeper
+  #$DIR/grid install zookeeper
   $DIR/grid install yarn
-  $DIR/grid install kafka
+  #$DIR/grid install kafka
 }
 
 install_zookeeper() {
@@ -100,9 +100,9 @@ install() {
 }
 
 start_all() {
-  $DIR/grid start zookeeper
+  #$DIR/grid start zookeeper
   $DIR/grid start yarn
-  $DIR/grid start kafka
+  #$DIR/grid start kafka
 }
 
 start_zookeeper() {
@@ -136,9 +136,9 @@ start_kafka() {
 }
 
 stop_all() {
-  $DIR/grid stop kafka
+  #$DIR/grid stop kafka
   $DIR/grid stop yarn
-  $DIR/grid stop zookeeper
+  #$DIR/grid stop zookeeper
 }
 
 stop_zookeeper() {
